@@ -9,7 +9,7 @@
 
 nav{
     /* background-image: url(./images/background.jpg); */
-    background-image:radial-gradient(#171414bb, rgba(27, 20, 20, 0.87) 0), url(./images/background.jpg);
+    background-image:radial-gradient(#151414f9, rgba(6, 5, 5, 0.87) 0), url(./images/background.jpg);
     width: 100%;
     height: 43rem;
     position: relative;
@@ -439,5 +439,246 @@ nav div #sign-in{
     display: block !important;
   }
 
+
+  @media (min-width: 992px){
+    .section-two .section-two-container{
+        margin: 0 200px;
+        display: block;
+        text-align: center
+        
+    }
+
+    .section-three .section-three-container{
+        margin: 0 200px;
+        display: block;
+        text-align: center
+        
+    }
+
+    .section-four .section-four-container{
+        margin: 0 200px;
+        display: block;
+        text-align: center
+        
+    }
+
+    .section-five .section-five-container{
+        margin: 0 200px;
+        display: block;
+        text-align: center
+        
+    }
+
+    .ready{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -100px 50px 0;
+        text-align: center;
+      }
+    
+      .ready p{
+        width: 400px;
+        font-size: 20px;
+        font-weight: 400;
+        text-wrap: wrap;
+        margin-right: 20px;
+    }
+    
+    .ready input{
+        background-color: rgba(0, 0, 0, 0.466);
+        border: thin solid rgba(232, 229, 229, 0.353);   
+        width: 200px;
+        height: 50px;
+        padding: 8px 16px 8px;
+    }
+
+    .ready .form{
+        display: flex;
+    }
+    
+    .ready a{
+        width: 150px;
+        height: 50px;
+        border-radius: 7px;
+        margin-left: 10px;
+        background-color: #E50914;
+        padding: 15px;
+        text-decoration: none;
+        color: #fff;
+    }
+
+  }
+
+  @media (min-width: 768px) {
+
+    .header .header-content{
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin: -20px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .header .header-content h1{
+        font-size: 1.5rem;
+        font-weight: 900;
+        text-wrap: wrap;
+    }
+
+    .header .header-content p{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .section-two .section-two-container{
+        margin: 0 ;
+        display: block;
+        text-align: center
+        
+    }
+    .section-two .section-two-container .section-two-text h2{
+        font-size: 36px;
+        font-weight: 800;
+        
+    }
+    
+    .section-two .section-two-container .section-two-text p{
+        font-size: 18px;
+        padding: 0 80px;
+        text-wrap: wrap;
+        font-weight: 400;
+        margin: 16px 0 0;
+    }
+    .section-two .section-two-container .section-two-image {
+        position: relative;
+        padding: 0;
+    }
+
+    .section-three .section-three-container{
+        margin: 0 ;
+        display: block;
+        text-align: center
+        
+    }
+
+    }
+    .section-three .section-three-container .section-three-text h2{
+        font-size: 36px;
+        font-weight: 800;
+        
+    }
+
+    .section-three .section-three-container .section-three-text p{
+        font-size: 18px;
+        padding: 0 80px;
+        text-wrap: wrap;
+        font-weight: 400;
+        margin: 16px 0 0;
+    }
+    .section-three .section-three-container .section-three-image {
+        position: relative;
+        padding: 0;
+    }
+
+    .section-four .section-four-container{
+        margin: 0 ;
+        display: block;
+        text-align: center
+        
+    }
+
+
+    .section-four .section-four-container .section-four-text h2{
+        font-size: 36px;
+        font-weight: 800;
+        
+    }
+
+    .section-four .section-four-container .section-four-text p{
+        font-size: 18px;
+        padding: 0 80px;
+        text-wrap: wrap;
+        font-weight: 400;
+        margin: 16px 0 0;
+    }
+    .section-four .section-four-container .section-four-image {
+        position: relative;
+        padding: 0;
+    }
+
+    
+    .section-five .section-five-container{
+        margin: 0 ;
+        display: block;
+        text-align: center
+        
+    }
+
+    .section-five .section-five-container .section-five-text h2{
+        font-size: 36px;
+        font-weight: 800;
+        
+    }
+
+    .section-five .section-five-container .section-five-text p{
+        font-size: 18px;
+        padding: 0 80px;
+        text-wrap: wrap;
+        font-weight: 400;
+        margin: 16px 0 0;
+    }
+    .section-five .section-five-container .section-five-image {
+        position: relative;
+        padding: 0;
+    }
+
+    .ready{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -100px 50px 0;
+        text-align: center;
+      }
+    
+      .ready p{
+        width: 400px;
+        font-size: 20px;
+        font-weight: 400;
+        text-wrap: wrap;
+        margin-right: 20px;
+    }
+    
+    .ready input{
+        background-color: rgba(0, 0, 0, 0.466);
+        border: thin solid rgba(232, 229, 229, 0.353);   
+        width: 200px;
+        height: 50px;
+        padding: 8px 16px 8px;
+    }
+
+    .ready .form{
+        display: flex;
+    }
+    
+    .ready a{
+        width: 150px;
+        height: 50px;
+        border-radius: 7px;
+        margin-left: 10px;
+        background-color: #E50914;
+        padding: 15px;
+        text-decoration: none;
+        color: #fff;
+    }
+    
   
+
+  @media (min-width: 600px){
+
+  }
+
   
+ 
